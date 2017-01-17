@@ -12,7 +12,30 @@ var coins = function(amt, denominations) {
     }
   }
   for (var i = 0; i < denominations.length; i++) {
-     recurse(amt, i);
+    recurse(amt, i);
   }
   return ways;
 }
+
+1,2,3
+
+1
+
+1
+
+1,1
+2
+
+1,1,1
+1,2
+3
+
+1,1,1,1
+1,1,2
+1,3
+2,2
+
+1,1,1,1,1
+1,1,1,2
+1,2,2
+1,1,3
